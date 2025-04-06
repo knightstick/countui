@@ -9,8 +9,8 @@ describe('Sample Test', () => {
 
 describe('End-to-End Test', () => {
   it('should run the app, print output, and exit', (done) => {
-    const greeting = 'Hello, CounTUI!'
-    exec('npx ts-node ./src/index.ts', (error, stdout, stderr) => {
+    const greeting = 'Hello, CounTUI!!!'
+    exec('node ./dist/index.js', (error, stdout, stderr) => {
       if (error) {
         done(new Error(`Execution failed: ${error.message}`));
         return;
