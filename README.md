@@ -12,6 +12,7 @@ I want this to be super-portable to work on.
 - Typescript
 - TDD for actual components
 - Functional programming where suitable
+- No libraries for things like UI - as vanilla as possible to learn as much.
 
 Development:
 - Docker container for the actual "production" build
