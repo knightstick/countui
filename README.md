@@ -1,5 +1,47 @@
 # Countui
 
+Countui is a Terminal User Interface (TUI) application designed to explore terminal rendering, event loops, and functional programming concepts using TypeScript. The application is built with portability and simplicity in mind, avoiding external libraries for UI to maximize learning.
+
+## Features
+- A counter that responds to key presses.
+- Terminal rendering and event loop handling.
+- Functional programming practices.
+- Behavior-driven development (BDD) approach.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd countui
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Build the project:
+   ```bash
+   npm run build
+   ```
+
+## Usage
+
+### Development
+To run the application in a development environment:
+```bash
+npm start
+```
+
+### Production
+To run the application in a Docker container:
+```bash
+./run-docker.sh
+```
+
+---
+
 ## Overview
 
 This is a Terminal UI (TUI) app built to learn about how those kinds of things work. The aim is to have a counter, respond to key presses, and think about things like terminal rendering, event loops and put some Typescript into practice.
