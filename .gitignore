@@ -15,5 +15,6 @@ Thumbs.db
 .env
 
 # IDE files
-.vscode/
+.vscode/*
+!.vscode/tasks.json
 .idea/
