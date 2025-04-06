@@ -38,4 +38,5 @@ With that in mind, the rough outline I have is:
 - [x] Dist folder
 - [x] Dev skeleton
 - [x] Gitignore
-- [ ] Build skeleton
+- [x] Build skeleton
+- [ ] Build task in VS Code
