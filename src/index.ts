@@ -1,1 +1,2 @@
-console.log("Hello, CountUI! This is the walking skeleton.");
+const greeting = "Hello, CounTUI!"
+console.log(greeting);
