@@ -75,6 +75,21 @@ With that in mind, the rough outline I have is:
 8. Respond to terminal resize and re-render
 9. Github actions for running tests
 
+## Testing Philosophy
+
+My goal is to follow the below whilst developing:
+
+1. **Behavior-Driven Development (BDD)**: Write tests that describe user behavior, such as keypress actions and terminal output.
+2. **Layered Testing**:
+   - **Unit Tests**: Test individual functions in isolation.
+   - **Integration Tests**: Verify interactions between components.
+   - **End-to-End Tests**: Simulate user input and validate terminal output.
+3. **Mocking and Simulation**: Mock terminal input/output to test user interactions and rendering.
+4. **Snapshot Testing**: Capture and compare terminal output for complex UI elements.
+5. **Edge Cases**: Test scenarios like invalid inputs, terminal resizing, and unexpected behaviors.
+
+This approach ensures robust, maintainable, and user-focused testing for TUI applications.
+
 ## TODO
 
 - [x] Dist folder
